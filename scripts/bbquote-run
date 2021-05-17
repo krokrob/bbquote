@@ -1,2 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+from bbquote.lib import get_quote
+
+print(f"{get_quote()['quote']} - {get_quote()['author']}")
